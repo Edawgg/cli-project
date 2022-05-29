@@ -1,0 +1,22 @@
+{
+  "name": "cli-proj",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cli",
+    "generator"
+  ],
+  "author": "Edawgg",
+  "license": "ISC",
+  "bin": {
+      "hello": "./bin/index.js"
+  }
+}
