@@ -17,6 +17,9 @@
   "author": "Edawgg",
   "license": "ISC",
   "bin": {
-      "hello": "./bin/index.js"
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
