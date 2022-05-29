@@ -1,23 +1,27 @@
 #!/usr/bin/env node
 
-import inquirer from '../lib/node_modules/inquirer/package.json';
+const inquirer = require("inquirer");
 
-const questions = [
+inquirer.prompt([
     {
         type: 'input',
         name: 'your_name',
         message: 'What is your name'
     },
     {
-        type: 'id',
+        type: 'input',
         name: 'identification_number',
         message: 'Add numeric value to organize profiles'
     },
     {
-        type: 'email',
+        type: 'input',
         name: 'email_address',
         message: 'enter email address'
     }
-]
+])
+
+.then(function(answer){
+    console.log(answer);
+});
 
 
